@@ -1,0 +1,68 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+
+<div class="w3-container">
+    <img src="danau toba.jpg" style="width: 100%;"
+</div>
+
+<div class="w3-bar w3-red w3-card-4">
+    <button class="w3-bar-item w3-button" onclick="openKota('Sibea bea')"> sibea bea</button>
+    <button class="w3-bar-item w3-button" onclick="openKota('Bukit')">Bukit holbung</button>
+    <button class="w3-bar-item w3-button" onclick="openKota('Pulau')">Pulau samosir</button>
+    <button class="w3-bar-item w3-button" onclick="openKota('Parapat')">Parapat</button>
+    <button class="w3-bar-item w3-button" onclick="openKota('profile')">profile</button>
+    </div>
+	
+	<div id="Sibea bea" class="w3-container kota w3-animate-fading w3-card-4 w3-light-gray" style="display:none; opacity: 100%;">
+        <center>
+            <h1><b>bukit sibebea</h1>
+        <img src="sibea bea.jpg" style="width: 25%;">
+        </center>
+        <p><center>Bukit Sibea bea berada di ketinggian 1.021 meter di atas permukaan laut. Ia menawarkan indahnya panorama alam hijau bersamaan dengan hamparan luas Danau Toba. Kawasan wisata ini sudah dipersiapkan sebagai destinasi wisata modern dengan jalan berkelok-kelok untuk menuju puncaknya. Tidak perlu khawatir, jalan berkelok-kelok ini sudah dirancang sedemikian rupa agar pengunjung tetap bisa menikmati pemandangan alam dengan nyaman saat melintasinya.</center>
+    </div>
+
+    <div id="Bukit" class="w3-container kota w3-animate-bottom w3-card-4 w3-light-gray" style="display:none; opacity: 100%;">
+        <center>
+            <h1 ><b>Bukit holbung</h1>
+        <img src="holbung.jpg" style="width: 25%;">
+        </center>
+        <P><center>Bukit Holbung adalah pilihan yang tepat. Sobat Pesona hanya perlu mempersiapkan fisik yang prima karena akan mendaki selama 30 menit. Dari atas bukit, Sobat Pesona dapat melihat panorama Danau Toba yang luar biasa. Selain itu, Sobat Pesona dapat berfoto di antara tanaman ilalang yang tumbuh di sana.</center>
+	</div>	
+
+    <div id="Pulau" class="w3-container kota w3-animate-top w3-card-4 w3-light-gray" style="display:none; opacity: 100%;">
+		<center>
+            <h1><b>Pulau samosir</h1>
+        <img src="samosir .jpg" style="width: 25%;">
+        </center>
+        <p><center>inilah salah satu keajaiban yang hadir di wisata Danau Toba. Wisatawan bisa mengunjungi pulau di tengah pulau. Ya, wisatawan bisa menyebrang dengan kapal feri untuk mengunjungi Pulau Samosir. Di pulau tersebut, wisatawan akan melihat berbagai daya tarik wisata seperti pertunjukan Sigale-gale. Selain itu, wisatawan juga bisa menikmati air terjun hingga danau yang berada di sana.</center>
+	</div>	
+
+	<div id="Parapat" class="w3-container kota w3-animate-zoom w3-card-4 w3-light-gray" style="display:none; opacity: 100%;">
+		<center>
+            <h1 ><b>Parapat</h1>
+        <img src="parapat.jpg" style="width: 25%;">
+        </center>
+        <p><center>Parapat selin indah juga mempunyai segudang objek wisata yang sangat memesona, seperti objek wisata alam, wisata budaya, hingga wisata sejarah yang masing-masing memiliki ciri khas serta keunikan tersendiri. Kota Parapat merupakan salah satu destinasi wisata unggulan.</center>  
+    </div>
+
+    <div id="profile" class="w3-container kota w3-animate-zoom w3-card-4 w3-light-gray" style="display:none; opacity: 100%;">
+		<center>
+            <h1 ><b>profile</h1>
+        <img src="profile.jpg" style="width: 15%;">
+        </center>
+        <p><center>NAMA  : FREDY RAFAEL SARAGIH
+        <p><center>NIM   : 10123296
+        <p><center>KELAS : IF_7
+
+<script>
+    function openKota(namakota) {
+    var i;
+    var x = document.getElementsByClassName("kota");
+    for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+    }
+    document.getElementById(namakota).style.display = "block";
+    }
+    </script>
+</html>
